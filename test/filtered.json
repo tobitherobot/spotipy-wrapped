@@ -1,0 +1,25 @@
+[
+    {
+        "ts": "2020-02-27T11:16:07Z",
+        "username": "MySpotifyAccount",
+        "platform": "Android OS",
+        "ms_played": 194000,
+        "conn_country": "DE",
+        "ip_addr_decrypted": "123.123.123.123",
+        "user_agent_decrypted": "unknown",
+        "master_metadata_track_name": "Policeman - Radio Edit",
+        "master_metadata_album_artist_name": "Eva Simons",
+        "master_metadata_album_album_name": "Policeman",
+        "spotify_track_uri": "spotify:track:2c7Edqut8DtKgcK7iESmCK",
+        "episode_name": null,
+        "episode_show_name": null,
+        "spotify_episode_uri": null,
+        "reason_start": "clickrow",
+        "reason_end": "trackdone",
+        "shuffle": false,
+        "skipped": null,
+        "offline": false,
+        "offline_timestamp": 0,
+        "incognito_mode": false
+    }
+]
