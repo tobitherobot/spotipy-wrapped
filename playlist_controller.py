@@ -17,7 +17,7 @@ class PlaylistController:
 
     def read_credentials(self):
 
-        f = open("prod/client.txt")
+        f = open("client.txt")
 
         os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:8080/'
         os.environ['SPOTIPY_CLIENT_ID'] = f.readline().strip()
