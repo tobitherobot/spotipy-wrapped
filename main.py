@@ -7,7 +7,6 @@ class Main:
 
     def run(self):
         self.playlist_controller.run()
-        self.playlist_controller.read_credentials()
         self.playlist_controller.create_playlist("yuchuuu")
 
 if __name__ == "__main__":

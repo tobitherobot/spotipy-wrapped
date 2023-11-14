@@ -8,6 +8,7 @@ from spotipy.oauth2 import SpotifyOAuth
 class PlaylistController:
 
     def __init__(self):
+        self.read_credentials()
         self.spotipy = spotipy.Spotify(auth_manager=SpotifyOAuth(scope='user-library-read'))
         self.user_id = ''
 
@@ -27,7 +28,8 @@ class PlaylistController:
         self.user_id = f.readline().strip()
 
     def create_playlist(self, name):
-        playlist = self.spotify.user_playlist_create(self.user_id, name, False, False, '')
+        playlist = self.spotipy.user_playlist_create(self.user_id, name, False, False, '')
+        print(playlist)
 
     def test():
         abs_path = os.path.dirname(__file__)
